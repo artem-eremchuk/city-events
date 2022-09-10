@@ -5,15 +5,15 @@ let theme = createTheme({
         primary: {
           main: "#000000",
           light: "#FFFFFF",
-          dark: "#FFFFFF",
+          dark: "#000000",
         },
         secondary: {
           main: "#FFFFFF",
-          dark: "#FFFFFF",
+          dark: "#000000",
           light: "#FFFFFF",
         },
         text: {
-          primary: "#FFFFFF",
+          primary: "#000000",
           secondary: "#FFFFFF",
           disabled: "#ffffff",
         },
