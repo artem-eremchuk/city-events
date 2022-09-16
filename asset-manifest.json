@@ -1,12 +1,10 @@
 {
   "files": {
-    "main.js": "/city-events/static/js/main.5e005d3b.js",
-    "static/js/787.7a48d7cf.chunk.js": "/city-events/static/js/787.7a48d7cf.chunk.js",
+    "main.js": "/city-events/static/js/main.a7ce6e9f.js",
     "index.html": "/city-events/index.html",
-    "main.5e005d3b.js.map": "/city-events/static/js/main.5e005d3b.js.map",
-    "787.7a48d7cf.chunk.js.map": "/city-events/static/js/787.7a48d7cf.chunk.js.map"
+    "main.a7ce6e9f.js.map": "/city-events/static/js/main.a7ce6e9f.js.map"
   },
   "entrypoints": [
-    "static/js/main.5e005d3b.js"
+    "static/js/main.a7ce6e9f.js"
   ]
 }
