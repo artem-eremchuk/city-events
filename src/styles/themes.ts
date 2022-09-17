@@ -1,50 +1,38 @@
-import { createTheme, responsiveFontSizes } from '@mui/material/styles';
+import { 
+  createTheme, 
+  responsiveFontSizes 
+} from '@mui/material/styles';
 
 let theme = createTheme({
+    spacing: 1,
     palette: {
-        primary: {
-          main: "#000000",
-          light: "#FFFFFF",
-          dark: "#000000",
-        },
-        secondary: {
-          main: "#FFFFFF",
-          dark: "#000000",
-          light: "#FFFFFF",
-        },
-        text: {
-          primary: "#000000",
-          secondary: "#FFFFFF",
-          disabled: "#ffffff",
-        },
-        background: {
-          paper: "#1C1C33",
-          default: "#FFFFFF",
-        }
+      primary: {
+        main: "#FCFCFD",
+      },
+      secondary: {
+        main: "#EA3A2C",
+      },
+      text: {
+        primary: "#23262F",
+        secondary: "#777E91",
+      },
     },
     typography: {
-      fontFamily: "roboto",
-      button: {
-          fontSize: 12
-      },
-      h1: {
-          fontSize: 64
-      },
-      h2: {
-          fontSize: 48
-      },
-      h3: {
-          fontSize: 32
-      },
-      h4: {
-          fontSize: 24,
-          fontWeight: 500,
-      },
+      fontFamily: "PoppinsMedium, sans-serif",
       body1: {
-          fontSize: 18,
-          fontWeight: 400,
+        fontSize: 14,
+        fontWeight: 500,
       },
-    }
+    },
+    breakpoints: {
+      values: {
+        xs: 0,
+        sm: 320,
+        md: 768,
+        lg: 1280,
+        xl: 1440,
+      },
+    },
 });
 
 theme = responsiveFontSizes(theme);
