@@ -1,5 +1,11 @@
 import React from 'react';
-import { Container, AppBar, Toolbar, Typography } from '@mui/material';
+import Navbar from '../Navbar/Navbar';
+import { 
+  Container, 
+  AppBar, 
+  Toolbar, 
+  Typography 
+} from '@mui/material';
 
 const logoStyle = {
   fontSize: "18px",
@@ -16,6 +22,7 @@ function Header() {
           <Typography sx={logoStyle}>
             almet events.
           </Typography>
+          <Navbar />
         </Toolbar>
       </Container>
     </AppBar>
