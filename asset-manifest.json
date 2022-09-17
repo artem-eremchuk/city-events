@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/city-events/static/css/main.fec36a5b.css",
-    "main.js": "/city-events/static/js/main.4e152236.js",
+    "main.js": "/city-events/static/js/main.fbce4987.js",
     "static/media/Poppins-Regular.woff": "/city-events/static/media/Poppins-Regular.eb7f33fefaf7106ac3a0.woff",
     "static/media/Poppins-Medium.woff": "/city-events/static/media/Poppins-Medium.9de653bb3161fcb43443.woff",
     "static/media/Poppins-SemiBold.woff": "/city-events/static/media/Poppins-SemiBold.4b2ae28bc415edfe9fd6.woff",
@@ -9,10 +9,10 @@
     "static/media/Poppins-Bold.woff": "/city-events/static/media/Poppins-Bold.949e1c5a3bdf00e55fe9.woff",
     "index.html": "/city-events/index.html",
     "main.fec36a5b.css.map": "/city-events/static/css/main.fec36a5b.css.map",
-    "main.4e152236.js.map": "/city-events/static/js/main.4e152236.js.map"
+    "main.fbce4987.js.map": "/city-events/static/js/main.fbce4987.js.map"
   },
   "entrypoints": [
     "static/css/main.fec36a5b.css",
-    "static/js/main.4e152236.js"
+    "static/js/main.fbce4987.js"
   ]
 }
