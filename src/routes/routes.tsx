@@ -1,3 +1,4 @@
+import { RouteObject } from "react-router-dom";
 import App from "../app/App";
 import MusicPage from "../pages/MusicPage";
 import SportsPage from "../pages/SportsPage";
@@ -7,16 +8,7 @@ import Experiences from "../pages/Experiences";
 import Festivals from "../pages/Festivals";
 import Layout from "../layouts/Layout";
 
-interface Route {
-  path: string,
-  element: JSX.Element
-}
-
-interface Routes extends Route {
-  children: Array<Route>
-}
-
-export const routes: Array<Routes> = [   
+export const routes: Array<RouteObject> = [   
   {
     path: "/",
     element: <Layout/>,
