@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from '../components/Header/Header';
+import { Typography } from '@mui/material';
 
-function App() {
+const App: React.FC = (): JSX.Element => {
   return (
     <>
-      <Header />
+      <Typography>All</Typography>
     </>
   );
 }

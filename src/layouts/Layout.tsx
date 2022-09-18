@@ -1,8 +1,14 @@
 import React from 'react';
+import Header from '../components/Header/Header';
+import { Outlet } from 'react-router-dom';
 
-function Layout() {
+
+const Layout: React.FC = (): JSX.Element => {
   return (
-    <div>Layout</div>
+    <>
+      <Header />
+      <Outlet />
+    </>
   )
 }
 

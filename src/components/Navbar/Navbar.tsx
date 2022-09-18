@@ -1,28 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { styled } from '@mui/system';
+import { styled } from '@mui/material';
 
-const Navigate = styled('nav')(({ theme }) => `
-    padding: 0 24px;
-  `,
-);
+const Navigate = styled('nav')(() => ({
+  paddingLeft: 24,
+}))
 
-const NavLink = styled(Link)(({ theme }) => `
-    padding: 16px 27px;
-    background-color: transparent;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 700;
-    color: ${theme.palette.text.secondary};
-    &:hover {
-      background-color: ${theme.palette.secondary.main};
-      color: ${theme.palette.primary.main};
-      border-radius: 24px;
-    }
-  `,
-);
+const NavLink = styled(Link)(({ theme }) => ({
+  padding: '16px 24px',
+  backgroundColor: 'transparent',
+  textDecoration: 'none',
+  fontSize: 14,
+  fontWeight: 700,
+  color: theme.palette.text.secondary,
+  '&:hover': {
+    backgroundColor: theme.palette.secondary.main,
+    color: theme.palette.primary.main,
+    borderRadius: 24
+  }
+}))
 
-function Navbar() {
+const Navbar: React.FC = (): JSX.Element => {
   return (
     <Navigate>
       <NavLink to="/">All</NavLink>
